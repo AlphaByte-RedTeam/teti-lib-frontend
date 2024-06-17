@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "eslint": "eslint .",
-    "eslint:fix": "eslint . --fix"
+    "eslint:fix": "eslint . --fix",
+    "test": "mocha --timeout 10000"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.12",
@@ -20,6 +21,7 @@
     "clsx": "^1.2.1",
     "framer-motion": "^7.6.4",
     "imagekit": "^4.1.1",
+    "mocha": "^10.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
@@ -27,6 +29,7 @@
     "react-masonry-css": "^1.0.16",
     "react-router": "^6.4.3",
     "react-router-dom": "^6.4.3",
+    "selenium-webdriver": "^4.21.0",
     "use-file-upload": "^1.0.11"
   },
   "devDependencies": {
